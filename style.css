@@ -1,0 +1,164 @@
+/*...........................................................Este es el Logo y el Head..........................................................*/
+
+body {
+    background: #0a0a0a;
+    margin: 0%;
+}
+.titulo-mercado {
+    text-align: center;
+    text-decoration: none;
+}
+.title-index {
+    display: block;
+    
+}
+.menu-principal {
+    text-align :center;
+    max-width: 100%;
+    background: #1c1c1c;
+    position: sticky;
+    top: 0;
+}
+.btn-1 {
+    margin-left: 1%;
+    margin-right: 1%;
+    text-decoration: none;
+    font-size: 2em;
+    color: #fbaf12;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/*......................................Aqui van los productos de la lista principal sobre los articulos Nuevos................................*/
+
+.nuevo {
+    background: #0a0a0a;
+    border: solid 5px #1c1c1c;
+}
+.title-nuevo {
+    color: #fbaf12;
+}
+.caja-1-nuevo-inicio {
+    display: flex;
+    flex-wrap: wrap;
+}
+.img-nuevo-1 {
+    width: 180px;
+    height: 180px;
+    border-radius: 5%;
+    margin-left: 100px;
+}
+.txt-nuevo-1 {
+    width: 180px;
+    height: 90px;
+    text-align: center;
+    margin-left: 100px;
+    color: #f6bf27;
+
+}
+
+/*...........................................Aqui van los productos de la lista principal sobre las Ofertas.....................................*/
+
+.oferta {
+    background: #0a0a0a;
+    border: solid 5px #1c1c1c;
+}
+.title-oferta {
+    color:#fbaf12;
+}
+.caja-1-oferta-inicio {
+    display: flex;
+    flex-wrap: wrap;
+}
+.oferta-1 {
+}
+.img-oferta-1 {
+    width: 180px;
+    height: 180px;
+    border-radius: 5%;
+    margin-left: 100px;
+}
+.txt-oferta-1 {
+    width: 180px;
+    height: 90px;
+    text-align: center;
+    margin-left: 100px;
+    color: #f6bf27;
+}
+
+/* .........................................................Este es el apartado de ROPA.........................................................*/
+
+.ropa-container {
+    display: flex;
+    flex-direction: row;
+}
+.ropa-menu-lateral {
+    background: #0a0a0a;
+    border: solid 5px #1c1c1c;
+    flex-grow: 0;
+}
+.ropa-cuerpo-pagina {
+    background: #0a0a0a;
+    border: solid 5px #1c1c1c;
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*................................................................Sub-Apartado de Ropa......................................................... */
+
+.ropa-img {
+    margin-top: 15px;
+    width: 180px;
+    height: 180px;
+    border-radius: 5%;
+    margin-left: 10px;
+}
+.ropa-txt {
+    color: #f6bf27;
+    width: 180px;
+    height: 90px;
+    text-align: center;
+    margin-left: 10px;
+
+}
+
+/*........................................................Espacio para el menu de opciones lateral..............................................*/
+
+#menu * { 
+    list-style:none;
+}
+#menu {
+    padding-left: 5px;
+    color: #fbaf12;
+}
+#menu li {
+    line-height:180%;
+}
+#menu li a {
+    color:#f6bf27;
+    text-decoration:none;
+}
+#menu input[name="list"] {
+    display: none;
+	position: absolute;
+	}
+#menu label:before {
+    content:"\025be";
+    margin-right:1px;
+}
+#menu input:checked ~ label:before {
+    content:"\025b8";
+}
+#menu .interior {
+    display: block;
+    margin-left: -16%;
+    font-size: 0.8em;
+}
+#menu input:checked ~ ul {
+    display: none;
+    margin-left: -16%;
+    font-size: 0.8em;
+}
+.lista {
+    font-size: 1.5em;
+}
